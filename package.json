@@ -1,0 +1,27 @@
+{
+  "name": "cover-creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "api": "nodemon app.js",
+    "build": "postcss src/tailwind.css -o public/css/styles.css",
+    "build:production": "ENV=production npm run build"
+  },
+  "keywords": [],
+  "author": "Maximo Martinez Soria <maximo.martinezsoria@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "body-parser": "^1.19.0",
+    "cloudmersive-convert-api-client": "^2.4.2",
+    "cors": "^2.8.5",
+    "cssnano": "^4.1.10",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2",
+    "tailwindcss": "^1.2.0"
+  }
+}

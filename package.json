@@ -6,7 +6,7 @@
   "scripts": {
     "api": "nodemon app.js",
     "css": "npx postcss src/tailwind.css -o public/css/styles.css",
-    "build": "ENV=production npm run css"
+    "build": ""
   },
   "keywords": [],
   "author": "Maximo Martinez Soria <maximo.martinezsoria@gmail.com>",

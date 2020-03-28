@@ -9,7 +9,7 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 
 // Other imports
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 const routes = require('./routes');
 
 // Middlewares

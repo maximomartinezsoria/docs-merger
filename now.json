@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "app.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/app.js", "dest": "/api/$1" }
+  ],
+  "env": {
+    "PORT": "@port",
+    "CLOUDMERSIVE_API_KEY": "@cloudmersive_api_key"
+  }
+}
